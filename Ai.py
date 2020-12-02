@@ -109,7 +109,8 @@ if __name__ == "__main__":
         elif 'play music' in query:
             music_dir = "D:\\Music\\"
             songs = os.listdir(music_dir)
-            os.startfile(os.path.join(music_dir songs[0]))
+            random.randit(1, 10)
+            os.startfile(os.path.join(music_dir, songs[ran]))
 
 
         elif 'email to amritanshu' in query:
